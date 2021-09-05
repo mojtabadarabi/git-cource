@@ -12,6 +12,7 @@ document.querySelector('#name').addEventListener('change',(e)=>{
 document.querySelector('#welcome').addEventListener('click',()=>{
     if (name) {
         document.querySelector('h1').innerHTML='welcome '+name+'to payment'
+        document.querySelector('h1').innerHTML='welcome '+name+'to sign in'
         
     }
 })
